@@ -1,2 +1,2 @@
-# Stellar-Plus
-A complete space based study application
+# SpaceTrek
+A website that demonstrates some animations using JavaScript

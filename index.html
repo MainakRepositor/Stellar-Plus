@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceTrek</title>
+    <link rel="stylesheet" href="css/large.css">
+    <link rel = "icon" href = "https://i.pinimg.com/originals/25/29/c6/2529c62e987d4b7c11553ea92c3cc66e.png" 
+        type = "image/x-icon">
+        <style>
+            .rounded-button {
+              display: inline-block;
+              padding: 10px 20px;
+              border-radius: 20px;
+              background-color: blue;
+              color: white;
+              text-decoration: none;
+              font-family: Arial, sans-serif;
+            }
+          </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <ul class="navbar__list">
+        </ul>
+        <span class="underline"></span>
+    </nav>
+
+    <header class="hero">
+        <div class="hero__text">
+            <h2 class="hero__heading">To infinity and Beyond</h2>
+            <div class="hero__buttons">
+                <a href="#section1" class="hero__button">
+                    <span>Learn More</span>
+                    <div class="wave"></div>
+                </a>
+                <a class="hero__button"> <span>Contact Us</span>
+                    <div class="wave"></div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="grid" id="GR-WAVE" data-nav="GR-WAVE">
+        <div class="grid__imagewrapper space-1">
+            <img src="img/astronaut.png" alt="" class="grid__image bounce">
+        </div>
+        <div class="grid__text">
+            <h6 class="grid__title">Gravitional Wave Analysis</h6>
+            <h4 class="grid__heading">Millions of mysteries, easier to reveal</h4>
+            <p class="grid__description">
+                
+                <a href="https://gravitational.streamlit.app/" target="_blank" class="rounded-button">GR-WAVE ANALYZER</a>
+            </p>
+        </div>
+    </section>
+
+    <section class="grid" id="stellar" data-nav="stellar">
+        <div class="grid__imagewrapper space-2">
+            <img src="img/space-station.png" alt="" class="grid__image float scale">
+        </div>
+        <div class="grid__text">
+            <h6 class="grid__title">Stellar Classifier</h6>
+            <h4 class="grid__heading">Know the categories of the bright shining celestial bodies</h4>
+            <p class="grid__description"><a href="https://astrovengers.streamlit.app/" target="_blank" class="rounded-button">Star Classification</a></p>
+        </div>
+    </section>
+
+    <section class="grid" id="GRB" data-nav="GRB">
+        <div class="grid__imagewrapper space-3">
+            <img src="img/reusable-rocket.png" alt="" class="grid__image pulse">
+        </div>
+        <div class="grid__text">
+            <h6 class="grid__title">Gamma Ray Burst Anticipator</h6>
+            <h4 class="grid__heading">Find out the probable fate of a celestial entity</h4>
+            <p class="grid__description"><a href="https://gamma-ray-burst-anticipator.streamlit.app/" target="_blank" class="rounded-button">GARBA</a></p>
+        </div>
+    </section>
+
+    <section class="grid" id="astro" data-nav="astro">
+        <div class="grid__imagewrapper space-2">
+            <img src="img/galaxy.png" alt="" class="grid__image float scale">
+        </div>
+        <div class="grid__text">
+            <h6 class="grid__title">AstroBlogger</h6>
+            <h4 class="grid__heading">Find out cool astronomical information published by NASA</h4>
+            <p class="grid__description"><a href="https://antarishk.netlify.app/" target="_blank" class="rounded-button">Antarishk</a></p>
+        </div>
+    </section>
+
+    <section class="flex" id="focus" data-nav="focus">
+        <div class="flex__text">
+            <h6 class="flex__title">OUR FOCUS</h6>
+            <h2 class="flex__heading">TOMORROW,<br>THE SOLAR SYSTEM</h2>
+            <p class="flex__description">We believe that in order to preserve Earth, our home, for our grandchildren’s
+                grandchildren, we must go to space to tap its unlimited resources and energy. Like the Industrial
+                Revolution gave way to trade, economic abundance, new communities and high-speed transportation - our
+                road to space opens to the door to the infinite and yet unimaginable future generations might enjoy.</p>
+        </div>
+    </section>
+
+    <div class="goTop" title="go to top">
+        <img class="goTop__image" src="img/Launch.svg" alt="spaceship">
+    </div>
+
+    <footer class="footer">
+        <p class="logo">
+            <span class="logo__letter">S</span>
+            <span class="logo__letter">P</span>
+            <span class="logo__letter">A</span>
+            <span class="logo__letter">C</span>
+            <span class="logo__letter">E</span>
+        </p>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="" class="footer__link">Facebook</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Twitter</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Instagram</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Linkedin</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>
